@@ -2,8 +2,6 @@ import React from "react";
 import logo from "../../images/logo/LOGO.svg";
 import "./header.css";
 
-
-
 const Header = () => {
   return (
     <header>

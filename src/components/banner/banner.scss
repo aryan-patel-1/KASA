@@ -1,0 +1,61 @@
+.banner {
+    margin-top: 80px;
+    position: relative;
+    text-align: center;
+
+    img {
+      width: 100%;
+      max-width: 1240px;
+      height: 223px;
+      margin: 0 auto;
+      border-radius: 15px;
+      object-fit: cover;
+      filter: brightness(0.6);
+    }
+
+    .text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 48px;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px black;
+      padding: 0 10px;
+      white-space: nowrap;
+    }
+  }
+
+  /* Tablette (1024px) */
+  @media screen and (max-width: 1024px) {
+    .banner img {
+      max-width: 900px;
+    }
+    .banner .text {
+      font-size: 36px;
+    }
+  }
+
+  /* Téléphone (768px) */
+  @media screen and (max-width: 768px) {
+    .banner img {
+      max-width: 90%;
+      height: 180px;
+    }
+    .banner .text {
+      font-size: 24px;
+    }
+  }
+
+  /* Petit téléphone (375px) */
+  @media screen and (max-width: 375px) {
+    .banner img {
+      width: 337px;
+      height: 111px;
+    }
+    .banner .text {
+      font-size: 16px;
+    }
+  }

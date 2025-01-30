@@ -1,7 +1,7 @@
 import React from "react";
 import PageAccueil from "./pages/page.accueil";
 
-const App = () => {
+function App ()  {
   return (
     <div>
       <PageAccueil />

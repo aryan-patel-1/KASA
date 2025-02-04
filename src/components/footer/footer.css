@@ -1,0 +1,29 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+.footer .logo-footer {
+  margin-bottom: 10px;
+  width: 100px;
+}
+.footer .text-footer {
+  font-size: 12px;
+}
+@media (max-width: 768px) {
+  .footer {
+    padding: 15px 10px;
+  }
+  .footer .logo-footer {
+    width: 80px;
+  }
+  .footer .text-footer {
+    font-size: 10px;
+    line-height: 1.5;
+    font-family: "Montserrat", sans-serif;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,14 +1,14 @@
 /* Style général du Collapse */
 .collapse-container {
     margin-top: 38px;
-    margin-bottom: 30px; // Espace entre chaque collapse
+    margin-bottom: 30px;
     width: 100%;
-    max-width: 1023px; // Largeur maximale pour les desktops
+    max-width: 1023px;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Montserrat', sans-serif; // Police Montserrat
-    transition: all 0.3s ease;  // Transition générale pour tous les changements
-    border-radius: 10px;  // Bordures arrondies sur tout le collapse
+    font-family: 'Montserrat', sans-serif; 
+    transition: all 0.3s ease;  
+    border-radius: 10px; 
   }
   
   /* Style de l'entête du Collapse */
@@ -20,28 +20,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: background-color 0.3s ease; // Transition fluide du fond
-    border-radius: 10px 10px 0 0;  // Bordures arrondies en haut
+    transition: background-color 0.3s ease; 
+    border-radius: 10px 10px 0 0; 
   }
   
   /* Style du contenu du Collapse */
   .collapse-content {
-    background-color: rgb(238, 238, 238); // Gris
+    background-color: rgb(238, 238, 238); 
     color: black;
-    font-family: 'Montserrat', sans-serif; // Police Montserrat
+    font-family: 'Montserrat', sans-serif; 
     padding: 10px;
     max-height: 0;
     overflow: hidden;
     opacity: 0;
-    transition: max-height 0.5s ease, opacity 0.5s ease, box-shadow 0.3s ease; // Transition fluide de max-height, opacité et ombre
-    border-radius: 0 0 10px 10px; // Bordures arrondies en bas
+    transition: max-height 0.5s ease, opacity 0.5s ease, box-shadow 0.3s ease; 
+    border-radius: 0 0 10px 10px; 
   }
   
   /* Quand le Collapse est ouvert */
   .collapse-content.open {
-    max-height: 200px;  // Ajustez cette valeur en fonction de la quantité de contenu
-    opacity: 1;  // Rendre le contenu visible de manière fluide
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); // Ombre légère pour l'effet de surbrillance
+    max-height: 200px;  
+    opacity: 1; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
   }
   
   /* Animation de la flèche */

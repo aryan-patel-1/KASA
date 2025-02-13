@@ -1,0 +1,56 @@
+@media screen and (max-width: 375px) {
+    .title-container {
+      display: flex;
+      flex-direction: column;
+    
+    }
+  
+    .title-container .title {
+      font-size: 1.2rem;
+    }
+  
+    .title-container .location {
+      font-size: 0.9rem;
+      margin-top: 5px;
+    }
+  
+    .title-container .host {
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    .tag-star {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      margin-top: 10px;
+    }
+  
+    .collapse-container {
+      margin-top: 20px;
+      padding: 0 10px;
+    }
+  
+    .collapse-container .collapse {
+      margin-bottom: 15px;
+    }
+  
+    /* Ajuster les tags et host pour qu'ils soient sur la même ligne */
+    .title-container .host {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+  
+    .title-container .host img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+  
+    .title-container .host span {
+      font-size: 1rem;
+    }
+  }
+  

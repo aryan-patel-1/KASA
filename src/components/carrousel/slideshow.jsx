@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./carrousel.scss"; 
+import "./slideshow.scss"; 
 
-const Carrousel = ({ pictures }) => {
+const Slideshow = ({ pictures }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   // Fonction pour changer l'image suivante
   const nextImage = () => {
@@ -34,4 +34,4 @@ const Carrousel = ({ pictures }) => {
     </div>
   );
 };
-export default Carrousel;
+export default Slideshow;

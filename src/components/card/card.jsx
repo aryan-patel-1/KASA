@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom"; // Import du Link pour la navigation
 import "./card.scss";
-import imgData from "../../image.json";
+import imgData from "../../img.json";
 
 const Card = () => {
   const [cards, setCards] = useState([]);

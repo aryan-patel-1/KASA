@@ -1,3 +1,4 @@
+/*Composant collapse */
 import PropTypes from "prop-types";
 import { useCollapse } from "../../utils/useCollapse";
 import "./collapse.scss";

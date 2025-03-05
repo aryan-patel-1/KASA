@@ -1,3 +1,4 @@
+/*Composant footer */
 import logoWhite from "/kasa_white.svg";
 import "./footer.scss";
 

@@ -1,3 +1,4 @@
+/*composant Banner*/
 import PropTypes from "prop-types";
 import "./banner.scss";
 

@@ -1,3 +1,4 @@
+/*Composant description avec les tagstars */
 import PropTypes from "prop-types";
 import { useCollapse } from "../../utils/useCollapse";
 import Collapse from "../Collapse/Collapse";
